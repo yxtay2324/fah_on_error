@@ -1,4 +1,4 @@
-# sound_effects_intellij
+# Fah on error
 
 ![Build](https://github.com/yxtay2324/sound_effects_intellij/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
