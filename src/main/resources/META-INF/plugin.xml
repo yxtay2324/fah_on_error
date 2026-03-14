@@ -1,15 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.yxtay2324.soundeffectsintellij</id>
-    <name>sound_effects_intellij</name>
+    <id>com.github.yxtay2324.fah</id>
+    <name>fah_on_error</name>
     <vendor>yxtay2324</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.yxtay2324.soundeffectsintellij.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.yxtay2324.soundeffectsintellij.startup.MyProjectActivity" />
+        <postStartupActivity implementation="com.github.yxtay2324.fah.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>

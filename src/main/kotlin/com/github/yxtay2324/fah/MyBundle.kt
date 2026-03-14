@@ -1,4 +1,4 @@
-package com.github.yxtay2324.soundeffectsintellij
+package com.github.yxtay2324.fah
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
